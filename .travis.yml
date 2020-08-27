@@ -12,3 +12,5 @@ jobs:
       dist: xenial
     - arch: ppc64le
       dist: bionic
+      
+before_install: echo $JAVA_HOME      
