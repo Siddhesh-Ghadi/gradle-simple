@@ -13,4 +13,4 @@ jobs:
     - arch: ppc64le
       dist: bionic
       
-before_install: echo $JAVA_HOME      
+before_install: echo $PATH; echo $JAVA_HOME      
